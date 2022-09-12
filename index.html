@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div id="nav">
-        <img src="https://media.istockphoto.com/vectors/classy-elegant-gold-r-letter-floral-logo-vector-id1286710160?b=1&k=20&m=1286710160&s=612x612&w=0&h=AEhIssrnRQjYYwGJjLiYh0oCfr8UDn0rVdHS5AxP75I=" alt="">
-        <div id="in">
-            <h3>Home</h3>
-            <h3>About</h3>
-            <h3>Resume</h3>
-            <h3>Projects</h3>
-        </div>
-    </div>
-</body>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <img src="pic.jpg" alt="" />
+        <h3 class="name">Rajiv Suting</h3>
+        <p class="post">Backend Developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href=">about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="home" id="home"></section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
