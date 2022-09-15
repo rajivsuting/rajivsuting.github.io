@@ -296,7 +296,6 @@ header .navbar ul li a:hover {
   font-size: 1.7rem;
   width: 100%;
 }
-
 .contact .row form .box::placeholder{
   text-transform: capitalize;
 }
@@ -323,6 +322,18 @@ header .navbar ul li a:hover {
   padding-right: 1rem;
   color: var(--yellow);
 }
+
+
+.top{
+  position: fixed;
+  bottom: 7.5rem;
+  right: 2rem;
+  z-index: 100;
+  display: none;
+}
+
+
+
 
 
 
