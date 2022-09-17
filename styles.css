@@ -112,7 +112,7 @@ header .navbar ul {
 }
 header .navbar ul li a {
   display: block;
-  padding: 1rem;
+  padding: .5rem;
   margin: 1.5rem 0;
   background: #333;
   color: #fff;
@@ -248,29 +248,55 @@ header .navbar ul li a:hover {
   background: var(--yellow);
 }
 
-.portfolio .box-container{
+.project .box-container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
 }
-.portfolio .box-container .box{
-  height: 20rem;
-  width: 26rem;
+.project .box-container .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40rem;
+  height: 40rem;
   border-radius: 1rem;
   margin: 2rem;
   overflow: hidden;
   cursor: pointer;
+  font-size: 1.4rem;
+  color: #fff;
+
 }
-.portfolio .box-container .box img{
-  height: 100%;
+.project .box-container .box .but{
+  display: flex;
+  justify-content: space-between;
+}
+.project .box-container .box span{
+  font-size: 1.7rem;
+  color: var(--yellow);
+}
+.project .box-container .box img{
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
-.portfolio .box-container .box:hover img{
-  transform: scale(1.2);
+.project .box-container .box:hover img{
+  transform: scale(1.1);
 }
+
+.skill .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  /* border: 1px solid white; */
+}
+.skill .box-container .box{
+  
+}
+
 .contact .row{
   display: flex;
   align-items: center;
@@ -383,7 +409,7 @@ header .navbar ul li a:hover {
   .education .box-container .box{
     width: 100%;
   }
-  .portfolio .box-container .box{
+  .project .box-container .box{
     width: 100%;
   }
   .contact .row form{
