@@ -291,10 +291,35 @@ header .navbar ul li a:hover {
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
-  /* border: 1px solid white; */
+}
+.skill .box-container .main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
 }
 .skill .box-container .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  height: 16rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 2rem;
+  overflow: hidden;
+  font-size: 1.4rem;
+  color: #fff;
+  background: #666;
+  padding: 2rem 2rem 1rem 2rem ;
   
+  
+}
+
+.skill .box-container .box img{
+  width: 65%;
 }
 
 .contact .row{
@@ -414,5 +439,9 @@ header .navbar ul li a:hover {
   }
   .contact .row form{
     margin: 3rem 0;
+  }
+  .skill .box-container .box{
+    width: 30%;
+    height: 13rem;
   }
 }
