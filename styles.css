@@ -654,4 +654,7 @@ text.ContributionCalendar-label {
     width: 30%;
     height: 13rem;
   }
+  .conct a{
+    font-size: 14px;
+  }
 }
