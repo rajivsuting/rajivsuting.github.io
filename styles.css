@@ -586,6 +586,16 @@ text.ContributionCalendar-label {
     font-size: 11px;
 }
 
+.conct a{
+  font-size: 25px;
+  color: var(--yellow);
+}
+.conct a i{
+  color: #fff;
+  width: 5rem;
+  height: 5rem;
+
+}
 
 
 
