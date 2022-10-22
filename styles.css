@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root {
-  --yellow: #b68831;
+  --yellow:rgb(21,162,184);
 }
 
 * {
@@ -47,7 +47,7 @@ section {
 }
 .btn {
   padding: 0.7rem 3rem;
-  background: #333;
+  background: #1b434c;
   color: #fff;
   cursor: pointer;
   margin-top: 1rem;
@@ -580,6 +580,7 @@ h2.f4.text-normal.mb-3 {
     border: 5px solid transparent;
     border-top-color: rgba(0,0,0,.85)
 }
+
 
 text.ContributionCalendar-label {
     fill: #ffbd39;
