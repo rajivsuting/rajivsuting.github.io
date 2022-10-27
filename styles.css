@@ -218,7 +218,7 @@ header .navbar ul li a:hover {
   position: relative;
 }
 
-.education .box-container .box span{
+.education .box-container .box .span{
   font-size: 1.3rem;
   background: #222;
   color: #fff;
@@ -247,7 +247,10 @@ header .navbar ul li a:hover {
   color: #fff;
   background: var(--yellow);
 }
-
+.ms{
+  color: var(--yellow);
+  font-size: 16px;
+}
 .project .box-container{
   display: flex;
   align-items: center;
@@ -611,6 +614,8 @@ text.ContributionCalendar-label {
   border-bottom: 0.1rem solid #fff4;
   color: #fff;
 }
+
+
 
 
 
