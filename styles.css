@@ -53,7 +53,11 @@ section {
   margin-top: 1rem;
   font-size: 2rem;
   border-radius: 5rem;
+  transition: 0.4s;
+  /* color: rgba(255, 255, 255, 0.6); */
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
+
 .btn i {
   padding: 0 0.5rem;
   font-size: 1.8rem;
@@ -95,8 +99,10 @@ header .user img {
   /* border: 0.7rem solid var(--yellow); */
 }
 header .user .name {
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: var(--yellow);
+  font-family: "Satisfy", serif;
+
 }
 header .user .post {
   font-size: 2rem;
@@ -112,7 +118,7 @@ header .navbar ul {
 }
 header .navbar ul li a {
   display: block;
-  padding: .5rem;
+  padding: .8rem;
   margin: 1.3rem 0;
   background: #1b434c;
   color: #fff;
@@ -122,6 +128,7 @@ header .navbar ul li a {
 header .navbar ul li a:hover {
   background: var(--yellow);
 }
+
 #menu {
   position: fixed;
   top: 2rem;
@@ -136,10 +143,13 @@ header .navbar ul li a:hover {
 }
 
 .home {
+  background: url("stike.jpg") top center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: column;
   padding: 0 15rem;
+  position: r;
 }
 .home h3 {
   font-size: 2.5rem;
