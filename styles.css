@@ -46,7 +46,7 @@ section {
 }
 .btn {
   padding: 0.7rem 3rem;
-  background: #1b434c;
+  background:#054634;;
   color: #fff;
   cursor: pointer;
   margin-top: 1rem;
@@ -118,7 +118,7 @@ header .navbar ul li a {
   display: block;
   padding: 0.8rem;
   margin: 1.3rem 0;
-  background: #1b434c;
+  background: #0d3026;
   color: #fff;
   font-size: 2rem;
   border-radius: 5rem;
