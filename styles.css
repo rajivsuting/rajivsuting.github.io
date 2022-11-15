@@ -864,3 +864,25 @@ text.ContributionCalendar-label {
     font-size: 16px;
   }
 }
+.github-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.git-cont {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.git-cont img{
+  width: 40%;
+}
+
+.stats-cont{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
