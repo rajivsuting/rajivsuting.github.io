@@ -38,7 +38,8 @@ html::-webkit-scrollbar-thumb {
 body {
   background: #111;
   overflow-x: hidden;
-  padding-left: 35rem;
+  /* padding-left: .5rem; */
+  padding-right: 35rem;
 }
 section {
   min-height: 100vh;
@@ -78,7 +79,7 @@ section {
 header {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 1000;
   height: 100%;
   width: 35rem;
@@ -752,13 +753,13 @@ text.ContributionCalendar-label {
 }
 @media (max-width: 991px) {
   header {
-    left: -120%;
+    right: -120%;
   }
   #menu {
     display: block;
   }
   header.toggle {
-    left: 0%;
+    right: 0%;
   }
   body {
     padding: 0;
