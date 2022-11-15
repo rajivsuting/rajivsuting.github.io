@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
 
 :root {
-  --yellow: #06d6a0;;
+  --yellow: #06d6a0;
 }
 
 * {
@@ -47,7 +47,7 @@ section {
 }
 .btn {
   padding: 0.7rem 3rem;
-  background:#054634;;
+  background: #054634;
   color: #fff;
   cursor: pointer;
   margin-top: 1rem;
@@ -168,9 +168,6 @@ header .navbar ul li a:hover {
 }
 /* ----------------------------------------------------- */
 
-
-
-
 .about .row .info h3 span {
   color: #eee;
   padding: 0 0.5rem;
@@ -188,16 +185,18 @@ header .navbar ul li a:hover {
 
 .abt .pic {
   width: 30%;
+  border-radius: 50%;
 }
 .abt .pic img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .abt-desc {
   width: 65%;
   line-height: 40px;
 }
- .data {
+.data {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
@@ -212,7 +211,7 @@ header .navbar ul li a:hover {
   color: #fff;
   font-size: 18px;
 }
-.data div h3{
+.data div h3 {
   font-size: 30px;
 }
 div .btn {
@@ -227,9 +226,6 @@ div .btn:hover {
   color: #fff;
 }
 /* ----------------------------------------------------------- */
-
-
-
 
 .education .box-container {
   display: flex;
@@ -421,7 +417,6 @@ div .btn:hover {
   width: 100%;
   gap: 30px;
   color: #fff;
-
 }
 .proj-cont .box {
   display: flex;
@@ -449,7 +444,6 @@ div .btn:hover {
 .proj-cont .box:hover .img img {
   transform: scale(1.1);
   transition: 0.3s;
-  
 }
 /* .proj-cont .box:hover{
   border: 2px solid #06d6a0;
@@ -463,23 +457,23 @@ div .btn:hover {
   justify-content: space-between;
 }
 
-.proj-cont .box .desc{
+.proj-cont .box .desc {
   width: 50%;
 }
 
-.proj-cont .box .desc h3{
+.proj-cont .box .desc h3 {
   font-size: 25px;
 }
 
-.proj-cont .box .desc p{
+.proj-cont .box .desc p {
   font-size: 16px;
 }
-.proj-cont .box .desc .tec{
+.proj-cont .box .desc .tec {
   margin: auto;
   /* border: 3px solid white;
   margin-top: 50px; */
 }
-.proj-cont .box .desc .tec h4{
+.proj-cont .box .desc .tec h4 {
   font-size: 20px;
 }
 .a_btn {
@@ -496,7 +490,6 @@ div .btn:hover {
   transition: 0.3s;
 }
 /* ---------------------------------------------------------- */
-
 
 :root {
   --color-calendar-graph-day-bg: #464646;
@@ -525,10 +518,6 @@ rect.ContributionCalendar-day[data-level="3"] {
 rect.ContributionCalendar-day[data-level="4"] {
   fill: var(--color-calendar-graph-day-L4-bg);
 }
-
-
-
-
 
 /* rect{
     height: 12px;
@@ -726,6 +715,15 @@ text.ContributionCalendar-label {
   color: #fff;
 }
 
+.cal-cont {
+  width: 90%;
+  margin: auto;
+  margin-right: 50rem;
+  margin-top: 5rem;
+  border: 1px solid #fff;
+  margin-left: 5rem;
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -744,11 +742,14 @@ text.ContributionCalendar-label {
     border: 1px solid rgb(108, 117, 125);
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
-  .proj-cont .box .desc{
+  .proj-cont .box .desc {
     width: 60%;
   }
-  .proj-cont .box .desc p{
+  .proj-cont .box .desc p {
     font-size: 15px;
+  }
+  .cal-cont {
+    width: 100%;
   }
 }
 @media (max-width: 991px) {
@@ -765,7 +766,7 @@ text.ContributionCalendar-label {
     padding: 0;
   }
 
-  .proj-cont .box{
+  .proj-cont .box {
     gap: 10px;
     padding: 8px;
     font-size: 14px;
@@ -775,17 +776,50 @@ text.ContributionCalendar-label {
     gap: 5px;
     border-radius: 0 20px 0 0;
   }
-  .proj-cont .box .desc{
+  .proj-cont .box .desc {
     width: 50%;
   }
-
-
+  .cal-cont{
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 400px) {
   html {
     font-size: 50%;
   }
+  .cal-cont{
+    margin-left: 0;
+  }
+}
+
+/* ---------------------------------- */
+.github-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.git-cont {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.git-cont img {
+  width: 40%;
+}
+
+.stats-cont {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.stats-cont img {
+  width: 40%;
 }
 
 @media (max-width: 400px) {
@@ -811,41 +845,41 @@ text.ContributionCalendar-label {
   .conct a {
     font-size: 14px;
   }
-  .proj-cont .box{
+  .proj-cont .box {
     width: 100%;
     padding: 5px;
     flex-direction: column;
     gap: 10px;
     font-size: 14px;
   }
-  .proj-cont .box .img{
+  .proj-cont .box .img {
     width: 100%;
   }
-  .proj-cont .box .desc{
+  .proj-cont .box .desc {
     width: 100%;
   }
-  .proj-cont .box .desc h3{
+  .proj-cont .box .desc h3 {
     font-size: 20px;
   }
-  .proj-cont .box .desc p{
+  .proj-cont .box .desc p {
     font-size: 14px;
   }
-  .proj-cont .box .desc .tec{
+  .proj-cont .box .desc .tec {
     width: 100%;
   }
-  .abt{
+  .abt {
     flex-direction: column;
     padding: 20px 5px;
     gap: 10px;
   }
-  .abt .pic{
+  .abt .pic {
     width: 100%;
   }
 
-  .abt-desc{
+  .abt-desc {
     width: 100%;
   }
-  .abt-desc div{
+  .abt-desc div {
     line-height: 30px;
     gap: 5px;
     font-size: 15px;
@@ -857,32 +891,32 @@ text.ContributionCalendar-label {
     text-align: center;
     gap: 10px;
   }
-  .data div h3{
+  .data div h3 {
     font-size: 20px;
   }
-  .data div p{
+  .data div p {
     font-size: 16px;
   }
-}
-.github-cont{
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-.git-cont {
-  display: flex;
-  width: 40%;
-  margin: auto;
-  justify-content: space-between;
-}
+  .github-cont {
+    gap: 20px;
+  }
 
-.git-cont img{
-  width: 40%;
-}
-
-.stats-cont{
-  display: flex;
-  width: 95%;
-  margin: auto;
-  justify-content: space-between;
+  .stats-cont {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .stats-cont img {
+    width: 100%;
+  }
+  .git-cont{
+    width: 80%;
+  }
+  .git-cont img{
+    width: 45%;
+  }
+  .cal-cont{
+    width: 100%;
+    margin-left: 0;
+  }
 }
