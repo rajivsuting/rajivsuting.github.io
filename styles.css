@@ -781,6 +781,10 @@ text.ContributionCalendar-label {
   .cal-cont{
     margin-left: 0;
   }
+  .abt .pic {
+    width: 36%;
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 400px) {
