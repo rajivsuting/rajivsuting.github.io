@@ -38,8 +38,8 @@ html::-webkit-scrollbar-thumb {
 body {
   background: #111;
   overflow-x: hidden;
-  /* padding-left: 35rem; */
-  padding-right: 35rem;
+  padding-left: 35rem;
+  /* padding-right: 35rem; */
 }
 section {
   min-height: 100vh;
@@ -79,7 +79,7 @@ section {
 header {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 1000;
   height: 100%;
   width: 35rem;
