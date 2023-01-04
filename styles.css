@@ -753,13 +753,13 @@ text.ContributionCalendar-label {
 }
 @media (max-width: 991px) {
   header {
-    right: -120%;
+    left: -120%;
   }
   #menu {
     display: block;
   }
   header.toggle {
-    right: 0%;
+    left: 0%;
   }
   body {
     padding: 0;
