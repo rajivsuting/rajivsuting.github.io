@@ -1,26 +1,33 @@
-$(document).ready(function(){
-    $('#menu').click(function(){
-        $(this).toggleClass('fa-times');
-        $('header').toggleClass('toggle')
-    });
-    $(window).on('scroll load',function(){
-        $('#menu').removeClass('fa-times');
-        $('header').removeClass('toggle')
+$(document).ready(function () {
+  $("#menu").click(function () {
+    $(this).toggleClass("fa-times");
+    $("header").toggleClass("toggle");
+  });
+  $(window).on("scroll load", function () {
+    $("#menu").removeClass("fa-times");
+    $("header").removeClass("toggle");
 
-        if($(window).scrollTop() > 0){
-            $('.top').show();
-        }else{
-            $('.top').hide();
-        }
-    })
+    if ($(window).scrollTop() > 0) {
+      $(".top").show();
+    } else {
+      $(".top").hide();
+    }
+  });
 
-    $('a[href*="#"]').on('click',function(e){
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop : $($(this).attr('href')).offset().top,
+  $('a[href*="#"]').on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate({
+      scrollTop: $($(this).attr("href")).offset().top,
+    }),
+      500,
+      "linear";
+  });
+});
 
-        }),
-        500,
-        'linear'
-    })
-})
+const handleClick = () => {
+  window.open(
+    "https://drive.google.com/file/d/18mza1LvHuV0qfQ4oaBBceiakTUtoHbU4/view?usp=sharing",
+    "_blank",-
+    "noopener,noreferrer"
+  );
+};
